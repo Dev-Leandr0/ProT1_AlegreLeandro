@@ -1,0 +1,1 @@
+Este proyecto consiste en la creación de una página web básica sobre la temática **"Perros: curiosidades y razas"**, utilizando etiquetas semánticas de HTML5 y estilos con CSS3. Es una práctica para familiarizarse con estilos en cascada, selectores, clases y estructura web.

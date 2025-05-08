@@ -6,9 +6,16 @@ body {
   padding: 0;
 }
 
-p {
-  font-size: 1.2em;
+.info-perros {
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+.estilo-perros {
+  font-size: 1.5em;
+  border: white 8px inset;
+  border-radius: 1em;
+  margin: 2rem 2rem;
+  padding: 1rem;
 }

@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.info-perros {
+/* .info-perros {
   text-align: center;
   font-style: italic;
   font-weight: bold;
@@ -18,4 +18,31 @@ body {
   border-radius: 1em;
   margin: 2rem 2rem;
   padding: 1rem;
+} */
+
+header {
+  background-color: #69bd45;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 20px;
+  /* espaciado para la sección de 20 pixeles */
+}
+
+footer {
+  background-color: #4caf50;
+  /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 800px;
+  /* Ancho máximo del contenido del footer */
+  margin: 0 auto;
+  /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
 }

@@ -21,22 +21,75 @@ body {
 } */
 
 header {
-  background-color: #69bd45;
-  color: #fff;
+  background-color: #0F6466;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
+}
+
+nav {
+  background-color: #0F6466;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #D2E8E3;
+  color: #000;
 }
 
 section {
-  padding: 20px;
+  padding: 50px 20px;
   /* espaciado para la sección de 20 pixeles */
+  display: flex;
+  /* Usar flexbox para alinear los elementos dentro de la sección */
+}
+
+img {
+  display: block;
+  /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto;
+  /* Centrar las imágenes horizontalmente */
+  max-width: 100%;
+  /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  border: 3px solid #0F6466;
+  /* Contorno de 3px con un color verde (#0F6466) alrededor de la img.*/
+  border-radius: 10px;
+  /* Borde redondeado de 10px para suavizar el contorno */
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  /* Aumentar el tamaño de la imagen al pasar el mouse */
 }
 
 footer {
-  background-color: #4caf50;
+  margin-top: 20px;
+  background-color: #0F6466;
   /* Color de fondo del footer */
   color: #fff;
+  /* Color del texto del footer */
   padding: 20px 0;
+  /* Espaciado superior e inferior del footer */
 }
 
 .footer-content {
@@ -45,4 +98,17 @@ footer {
   margin: 0 auto;
   /* Centrar el contenido del footer horizontalmente */
   text-align: center;
+  /* Centrar el texto del footer */
+}
+
+.footer-content a {
+  transition: transform 0.3s ease;
+
+  border-radius: 15px;
+  /* Bordes redondeados de 15px para los enlaces */
+}
+
+.footer-content a:hover {
+  transform: scale(1.1);
+  /* Aumentar el tamaño del enlace al pasar el mouse */
 }
